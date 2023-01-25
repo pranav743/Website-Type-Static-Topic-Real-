@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Relative</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" >
+    <script defer src="script.js">
+    </script>
+    
+</head>
+<body>
+<span class="material-symbols-outlined" id="settings" onclick="spawn_sidebar()">
+menu
+</span>
+<div class="sidebar" id="s">
+    <div class="sections">
+        <ul>
+            <li><a href="#" onclick="destroy_sidebar()">About</a></li>
+            <li><a href="#2" onclick="destroy_sidebar()">Packages</a></li>
+            <li><a href="#4" onclick="destroy_sidebar()">Contact</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="navbar">
+    <h1>BRAND</h1>
+    
+    
+    <ul>
+
+        <li><a href="#">About</a></li>
+        <li><a href="#2">Packages</a></li>
+        <li><a href="#4">Contact</a></li>
+       
+    </ul>
+</div>
+<div class="page1" id="1">
+
+    <h1 class="hidden">FIND a Home     <br>you'll LOVE</h1>
+    <div>
+    <!-- <section class="buy"><h2>BUY</h2></section> -->
+    <button type="button" class="buy" >Buy</button>
+    <button type="button" class="sell" >Rent</button>
+    <!-- <section class="RENT"><h2>RENT</h2></section> -->
+    </div>
+
+</div>
+<div class="page2" id="2">
+    <div>
+        <div class="card hidden">
+            <section class="card-content" style="background-image: url('mumbai.png');">
+                <div>
+
+                    <h1 style="color: #fff; letter-spacing: 4px; font-size: 35px; transform: translateY(-80%); width: 110%; background-color: rgba(0,0,0,0.3); text-align: center;">MUMBAI</h1>
+
+                </div>
+                <div class="city-text">
+                    <p>Hello dsjcsnbdkjsbvdkjs jndskvjns sjvnksjvn skjvnksjdvsdcsd sdvsvd svdsdv dsvs vd dsvds v svd sv sdv svd   sdvsvsdv  sdvsvn</p>
+                </div>
+            </section>
+        </div>
+        <div class="card hidden">
+            <section class="card-content" style="background-image: url('delhi.png');">
+                <div>
+                    <h1 style="color: #fff; letter-spacing: 4px; font-size: 35px; transform: translateY(-80%); width: 110%; background-color: rgba(0,0,0,0.3); text-align: center;">DELHI</h1>
+                </div>
+                <div class="city-text">
+                    <p>Hello dsjcsnbdkjsbvdkjs jndskvjns sjvnksjvn skjvnksjdvsdcsd sdvsvd svdsdv dsvs vd dsvds v svd sv sdv svd   sdvsvsdv  sdvsvn</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div>
+        <div class="card hidden" >
+            <section class="card-content" style="background-image: url('chennai.png');">
+                <div>
+                    <h1 style="color: #fff; letter-spacing: 4px; font-size: 35px; transform: translateY(-80%); width: 110%; background-color: rgba(0,0,0,0.3); text-align: center;">CHENNAI</h1>
+                </div>
+                <div>
+                    <p>Hello dsjcsnbdkjsbvdkjs jndskvjns sjvnksjvn skjvnksjdvsdcsd sdvsvd svdsdv dsvs vd dsvds v svd sv sdv svd   sdvsvsdv  sdvsvn</p>
+                </div>
+            </section>
+        </div>
+        <div class="card hidden">
+            <section class="card-content" style="background-image: url('kolkata.png');">
+                <div>
+                    <h1 style="color: #fff; letter-spacing: 4px; font-size: 35px; transform: translateY(-80%); width: 110%; background-color: rgba(0,0,0,0.3); text-align: center;">KOLKATA</h1>
+                </div>
+                <div>
+                    <p>Hello dsjcsnbdkjsbvdkjs jndskvjns sjvnksjvn skjvnksjdvsdcsd sdvsvd svdsdv dsvs vd dsvds v svd sv sdv svd   sdvsvsdv  sdvsvn</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</div>
+
+<div class="page3" id="3">
+    
+</div>
+
+<div class="page4" id="4">
+    <div class="form-box hidden">
+        <h1 id="title">Stay in Touch</h1>
+        <form>
+            <div class="input-group" id="inputgroup">
+
+                <div class="input-field" id="namefield">
+                    <input type="text" placeholder="Name">
+                </div>
+
+                <div class="input-field" id="emailfield">
+                    <input type="email" placeholder="E-mail">
+                </div>
+
+                <div class="input-field" id="passwordfield">
+                    <input type="tel" placeholder="Contact no.">
+                </div>
+
+               
+            </div>
+
+            
+        </form>
+
+        <div class="btn-field">
+            <button type="button" id="submit-btn" >Submit</button>
+            
+        </div> 
+    </div>
+    
+</div>
+
+<div class="contact-info">
+
+    <div class="social-links hidden">
+        <ul>
+            <li><a href="#" class="fa fa-linkedin"></a></li>
+            <li><a href="#" class="fa fa-instagram"></a></li>
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#" class="fa fa-twitter"></a></li>
+        </ul>
+    </div>
+
+</div>
+
+
+</body>
+</html>
