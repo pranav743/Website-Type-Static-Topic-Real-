@@ -112,7 +112,7 @@ html{
 
 .pogressbar{
     position: fixed;
-    width: 1px;
+    width: 2px;
     z-index: 13;
     height: 100vh;
     left: 0;
