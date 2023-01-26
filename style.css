@@ -283,6 +283,7 @@ html{
 
     height: 130%;
     align-self: flex-start;
+    margin-top: 3.5%;
 
 }
 
@@ -317,6 +318,8 @@ html{
     color: #eaeaea;
     display: flex;
     align-items: center;  
+    letter-spacing: 3px;
+    font-size: 15px;
 }
 
 
