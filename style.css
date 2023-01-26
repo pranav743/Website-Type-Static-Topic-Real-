@@ -74,6 +74,26 @@ html{
         font-size: 30px !important;
     }
 
+    .about-card:hover{
+        height: 90% !important;
+        align-self: center !important;    
+    }
+
+    .about-card:hover .about-card-p{
+        visibility: visible;
+        font-size: 25px;
+        letter-spacing: 3px;
+        
+    }
+    .about-card-h1{
+        font-size: 35px !important;
+    }
+    .about-card-p2{
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+    
+
 
 }
 
@@ -101,9 +121,11 @@ html{
 #settings{
     position: fixed;
     right: 0;
-    transform: translate(-10px, 7px);
+    transform: translate(-15px, 12px);
     cursor: pointer;
     z-index: 11;
+    font-weight: bold;
+    display: none;
 }
 
 
@@ -197,6 +219,7 @@ html{
 .card{
     height: 100%;
     background-color: rgba(255,255,255,0);
+    
 }
 
 .card-content{
@@ -208,6 +231,7 @@ html{
     max-width: 500px;
     max-height: 500px;
     background-color: #000;
+    box-shadow: 5px 5px 20px black;
 }
 
 .card-content div{
@@ -233,9 +257,68 @@ html{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-   
- 
+    padding: 1%; 
 }
+
+.page3 div{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-card{
+    height: 90%;
+    width: 90%;
+    background-color:#be5151 ;
+    align-self: center; 
+}
+
+.about-card h1{
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 7px;
+}
+
+.about-card:hover{
+
+    height: 130%;
+    align-self: flex-start;
+
+}
+
+.about-card:hover .about-card-p{
+    display: flex;
+}
+
+.about-card:hover .about-card-p2{
+    display: none;
+}
+.about-card:hover .about-card-h1{
+    display: none;
+}
+
+
+
+.about-card-p{
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    text-align: center;
+    color: #eaeaea;
+    display: none;
+    align-items: center;
+    
+}
+
+.about-card-p2{
+    padding: 5%;
+    height: 78%;
+    text-align: center;
+    color: #eaeaea;
+    display: flex;
+    align-items: center;  
+}
+
 
 .page4{
     height: 100vh;
